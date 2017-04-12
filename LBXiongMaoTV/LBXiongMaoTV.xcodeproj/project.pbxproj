@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31A7E3547F416E6452E26EDF /* Pods_LBXiongMaoTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2F95E49997CB25059A4A8F /* Pods_LBXiongMaoTV.framework */; };
 		F82FC7891E9CD0A500B1BE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82FC7881E9CD0A500B1BE30 /* AppDelegate.swift */; };
 		F82FC7901E9CD0A600B1BE30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82FC78F1E9CD0A600B1BE30 /* Assets.xcassets */; };
 		F82FC7931E9CD0A600B1BE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82FC7911E9CD0A600B1BE30 /* LaunchScreen.storyboard */; };
@@ -33,6 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71879C5AD8F3470758A134DE /* Pods-LBXiongMaoTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBXiongMaoTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBXiongMaoTV/Pods-LBXiongMaoTV.release.xcconfig"; sourceTree = "<group>"; };
+		9A2F95E49997CB25059A4A8F /* Pods_LBXiongMaoTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBXiongMaoTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B980AC57E8DB9E54BAE2FDE7 /* Pods-LBXiongMaoTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBXiongMaoTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBXiongMaoTV/Pods-LBXiongMaoTV.debug.xcconfig"; sourceTree = "<group>"; };
 		F82FC7851E9CD0A500B1BE30 /* LBXiongMaoTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBXiongMaoTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82FC7881E9CD0A500B1BE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F82FC78F1E9CD0A600B1BE30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,7 +67,7 @@
 		F82FC7B21E9CD48A00B1BE30 /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
 		F82FC7B31E9CD48A00B1BE30 /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
 		F82FC7B41E9CD48A00B1BE30 /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
-		F82FC7C11E9CD50100B1BE30 /* LBXiongMaoTV-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "LBXiongMaoTV-Bridge.h"; path = "LBXiongMaoTV/LBXiongMaoTV-Bridge.h"; sourceTree = "<group>"; };
+		F82FC7C11E9CD50100B1BE30 /* LBXiongMaoTV-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LBXiongMaoTV-Bridge.h"; sourceTree = "<group>"; };
 		F82FC7C21E9CD5FE00B1BE30 /* LBXMTabBarVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMTabBarVController.swift; sourceTree = "<group>"; };
 		F84A45361E9DDAA9004C26B8 /* LBXMNavVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMNavVController.swift; sourceTree = "<group>"; };
 		F84A45431E9DDD5E004C26B8 /* LBXMMineVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMineVController.swift; sourceTree = "<group>"; };
@@ -79,18 +83,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A7E3547F416E6452E26EDF /* Pods_LBXiongMaoTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		355F253C2E463E1C555AF179 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A2F95E49997CB25059A4A8F /* Pods_LBXiongMaoTV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42121394B7708B59EB3608E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B980AC57E8DB9E54BAE2FDE7 /* Pods-LBXiongMaoTV.debug.xcconfig */,
+				71879C5AD8F3470758A134DE /* Pods-LBXiongMaoTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F82FC77C1E9CD0A500B1BE30 = {
 			isa = PBXGroup;
 			children = (
-				F82FC7C11E9CD50100B1BE30 /* LBXiongMaoTV-Bridge.h */,
 				F82FC7871E9CD0A500B1BE30 /* LBXiongMaoTV */,
 				F82FC7861E9CD0A500B1BE30 /* Products */,
+				42121394B7708B59EB3608E3 /* Pods */,
+				355F253C2E463E1C555AF179 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +138,7 @@
 				F84A45451E9DDD65004C26B8 /* SmallXiu(小葱秀) */,
 				F84A45421E9DDD5E004C26B8 /* Mine(我的) */,
 				F82FC79A1E9CD45D00B1BE30 /* UI框架 */,
+				F82FC7C11E9CD50100B1BE30 /* LBXiongMaoTV-Bridge.h */,
 				F82FC78F1E9CD0A600B1BE30 /* Assets.xcassets */,
 				F82FC7911E9CD0A600B1BE30 /* LaunchScreen.storyboard */,
 				F82FC7941E9CD0A600B1BE30 /* Info.plist */,
@@ -217,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F82FC7971E9CD0A600B1BE30 /* Build configuration list for PBXNativeTarget "LBXiongMaoTV" */;
 			buildPhases = (
+				BA9425C96510D7F4D1441442 /* [CP] Check Pods Manifest.lock */,
 				F82FC7811E9CD0A500B1BE30 /* Sources */,
 				F82FC7821E9CD0A500B1BE30 /* Frameworks */,
 				F82FC7831E9CD0A500B1BE30 /* Resources */,
+				8DF5E1F27053D9C6E962B474 /* [CP] Embed Pods Frameworks */,
+				2411B5A346D5282E793BEA79 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,6 +304,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2411B5A346D5282E793BEA79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBXiongMaoTV/Pods-LBXiongMaoTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DF5E1F27053D9C6E962B474 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBXiongMaoTV/Pods-LBXiongMaoTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9425C96510D7F4D1441442 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F82FC7811E9CD0A500B1BE30 /* Sources */ = {
@@ -416,6 +491,7 @@
 		};
 		F82FC7981E9CD0A600B1BE30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B980AC57E8DB9E54BAE2FDE7 /* Pods-LBXiongMaoTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -432,6 +508,7 @@
 		};
 		F82FC7991E9CD0A600B1BE30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71879C5AD8F3470758A134DE /* Pods-LBXiongMaoTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
