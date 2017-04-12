@@ -23,14 +23,14 @@
 		F82FC7BE1E9CD48A00B1BE30 /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F82FC7B01E9CD48A00B1BE30 /* UIScreen+CZAddition.m */; };
 		F82FC7BF1E9CD48A00B1BE30 /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F82FC7B21E9CD48A00B1BE30 /* UIView+CZAddition.m */; };
 		F82FC7C01E9CD48A00B1BE30 /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F82FC7B41E9CD48A00B1BE30 /* UIViewController+CZAddition.m */; };
-		F82FC7C31E9CD5FE00B1BE30 /* LBXMTabBarVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82FC7C21E9CD5FE00B1BE30 /* LBXMTabBarVController.swift */; };
-		F84A45371E9DDAA9004C26B8 /* LBXMNavVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A45361E9DDAA9004C26B8 /* LBXMNavVController.swift */; };
 		F84A45441E9DDD5E004C26B8 /* LBXMMineVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A45431E9DDD5E004C26B8 /* LBXMMineVController.swift */; };
 		F84A45471E9DDD65004C26B8 /* LBXMSmallXiuVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A45461E9DDD65004C26B8 /* LBXMSmallXiuVController.swift */; };
 		F84A454A1E9DDD6C004C26B8 /* LBXMYuLeVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A45491E9DDD6C004C26B8 /* LBXMYuLeVController.swift */; };
 		F84A454D1E9DDD73004C26B8 /* LBXMGameVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A454C1E9DDD73004C26B8 /* LBXMGameVController.swift */; };
 		F84A45501E9DDD79004C26B8 /* LBXMHomeVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A454F1E9DDD79004C26B8 /* LBXMHomeVController.swift */; };
 		F84A45541E9E0CB3004C26B8 /* LBXMSearchVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A45531E9E0CB3004C26B8 /* LBXMSearchVController.swift */; };
+		F8E1F6691E9E1B8F0068F099 /* LBXMNavVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E1F6671E9E1B8F0068F099 /* LBXMNavVController.swift */; };
+		F8E1F66A1E9E1B8F0068F099 /* LBXMTabBarVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E1F6681E9E1B8F0068F099 /* LBXMTabBarVController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,14 +68,14 @@
 		F82FC7B31E9CD48A00B1BE30 /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
 		F82FC7B41E9CD48A00B1BE30 /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
 		F82FC7C11E9CD50100B1BE30 /* LBXiongMaoTV-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LBXiongMaoTV-Bridge.h"; sourceTree = "<group>"; };
-		F82FC7C21E9CD5FE00B1BE30 /* LBXMTabBarVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMTabBarVController.swift; sourceTree = "<group>"; };
-		F84A45361E9DDAA9004C26B8 /* LBXMNavVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMNavVController.swift; sourceTree = "<group>"; };
 		F84A45431E9DDD5E004C26B8 /* LBXMMineVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMineVController.swift; sourceTree = "<group>"; };
 		F84A45461E9DDD65004C26B8 /* LBXMSmallXiuVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMSmallXiuVController.swift; sourceTree = "<group>"; };
 		F84A45491E9DDD6C004C26B8 /* LBXMYuLeVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMYuLeVController.swift; sourceTree = "<group>"; };
 		F84A454C1E9DDD73004C26B8 /* LBXMGameVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMGameVController.swift; sourceTree = "<group>"; };
 		F84A454F1E9DDD79004C26B8 /* LBXMHomeVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMHomeVController.swift; sourceTree = "<group>"; };
 		F84A45531E9E0CB3004C26B8 /* LBXMSearchVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMSearchVController.swift; sourceTree = "<group>"; };
+		F8E1F6671E9E1B8F0068F099 /* LBXMNavVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMNavVController.swift; sourceTree = "<group>"; };
+		F8E1F6681E9E1B8F0068F099 /* LBXMTabBarVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMTabBarVController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,8 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				F82FC7881E9CD0A500B1BE30 /* AppDelegate.swift */,
-				F82FC7C21E9CD5FE00B1BE30 /* LBXMTabBarVController.swift */,
-				F84A45361E9DDAA9004C26B8 /* LBXMNavVController.swift */,
+				F8E1F6661E9E1B8F0068F099 /* main */,
 				F84A45521E9E0CA4004C26B8 /* search(搜索) */,
 				F84A454E1E9DDD79004C26B8 /* home(主页) */,
 				F84A454B1E9DDD73004C26B8 /* game(游戏) */,
@@ -232,6 +231,15 @@
 				F84A45531E9E0CB3004C26B8 /* LBXMSearchVController.swift */,
 			);
 			path = "search(搜索)";
+			sourceTree = "<group>";
+		};
+		F8E1F6661E9E1B8F0068F099 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				F8E1F6681E9E1B8F0068F099 /* LBXMTabBarVController.swift */,
+				F8E1F6671E9E1B8F0068F099 /* LBXMNavVController.swift */,
+			);
+			path = main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,18 +366,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E1F66A1E9E1B8F0068F099 /* LBXMTabBarVController.swift in Sources */,
 				F82FC7C01E9CD48A00B1BE30 /* UIViewController+CZAddition.m in Sources */,
 				F84A454D1E9DDD73004C26B8 /* LBXMGameVController.swift in Sources */,
 				F84A45501E9DDD79004C26B8 /* LBXMHomeVController.swift in Sources */,
 				F82FC7891E9CD0A500B1BE30 /* AppDelegate.swift in Sources */,
 				F84A454A1E9DDD6C004C26B8 /* LBXMYuLeVController.swift in Sources */,
+				F8E1F6691E9E1B8F0068F099 /* LBXMNavVController.swift in Sources */,
 				F82FC7B51E9CD48A00B1BE30 /* NSArray+Log.m in Sources */,
 				F82FC7BE1E9CD48A00B1BE30 /* UIScreen+CZAddition.m in Sources */,
 				F82FC7BF1E9CD48A00B1BE30 /* UIView+CZAddition.m in Sources */,
-				F84A45371E9DDAA9004C26B8 /* LBXMNavVController.swift in Sources */,
 				F82FC7B61E9CD48A00B1BE30 /* NSAttributedString+CZAdditon.m in Sources */,
 				F82FC7B71E9CD48A00B1BE30 /* NSObject+CZRuntime.m in Sources */,
-				F82FC7C31E9CD5FE00B1BE30 /* LBXMTabBarVController.swift in Sources */,
 				F82FC7BA1E9CD48A00B1BE30 /* NSString+CZPath.m in Sources */,
 				F84A45541E9E0CB3004C26B8 /* LBXMSearchVController.swift in Sources */,
 				F84A45441E9DDD5E004C26B8 /* LBXMMineVController.swift in Sources */,
