@@ -10,5 +10,6 @@
 #define LBXiongMaoTV_Bridge_h
 //桥接文件，专门用于引入OC的头文件，一旦引入，Swift就能使用(宏除外)
 #import "CZAdditions.h"
+#import "YYModel.h"
 
 #endif /* LBXiongMaoTV_Bridge_h */

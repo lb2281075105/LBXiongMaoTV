@@ -44,7 +44,6 @@ extension LBXMTabBarVController{
         ///为标签栏Item设置属性值
         viewController.tabBarItem.title = title
         viewController.title = title
-        viewController.view.backgroundColor = UIColor.cz_random()
         viewController.tabBarItem.image = UIImage.init(named: imageName)
         viewController.tabBarItem.selectedImage = UIImage.init(named: selectImageName)
         ///添加导航控制器

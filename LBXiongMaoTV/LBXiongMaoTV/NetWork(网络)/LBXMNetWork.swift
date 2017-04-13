@@ -16,7 +16,7 @@ enum HttpRequestType {
 ///请求类型、url、pragrams
 class LBXMNetWork: NSObject {
 
-   class func netWorkRequest(requestType:HttpRequestType,urlString:String,pragrams:[String:AnyObject],completion:@escaping (_ json:AnyObject)->()){
+   class func netWorkRequest(requestType:HttpRequestType,urlString:String,pragrams:[String:Any]? = nil,completion:@escaping (_ json:AnyObject)->()){
         ///请求数据
         let type = requestType == .GET ? HTTPMethod.get : HTTPMethod.post
             Alamofire.request(urlString, method: type, parameters: pragrams).responseJSON { (response) in
