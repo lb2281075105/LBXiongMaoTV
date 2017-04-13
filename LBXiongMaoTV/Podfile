@@ -1,7 +1,8 @@
-platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
 use_frameworks!
 
 target 'LBXiongMaoTV' do
-pod 'Alamofire'
-pod 'Kingfisher'
+    pod 'Alamofire', '~> 4.4'
+    pod 'Kingfisher'
 end
