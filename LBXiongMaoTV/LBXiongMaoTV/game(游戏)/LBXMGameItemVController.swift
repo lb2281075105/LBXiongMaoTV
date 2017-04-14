@@ -51,10 +51,11 @@ extension LBXMGameItemVController{
         Alamofire.request("http://api.m.panda.tv/ajax_get_live_list_by_cate?cate=\(cate)&pageno=1&pagenum=20&order=person_num&status=2&__version=1.1.7.1305&__plat=ios&__channel=appstore", method: .get, parameters: nil).responseJSON { (response) in
             print(response)
             guard let result = response.result.value as?[String:AnyObject],
-            let data = result["data"]as?[[String:AnyObject]] else{
+                  let data = result["data"]as?[String:AnyObject],
+                  let items = data["items"]as?[[String:AnyObject]]  else{
                 return
             }
-            for dic in data{
+            for dic in items{
             
               let gameItemModel = LBXMGameModel()
                 gameItemModel.yy_modelSet(with: dic)
@@ -75,7 +76,7 @@ extension LBXMGameItemVController:UICollectionViewDelegateFlowLayout,UICollectio
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let gameItemCell = collectionView.dequeueReusableCell(withReuseIdentifier: "GameItemCell", for: indexPath) as? LBXMGameItemCell
-        
+        gameItemCell?.gamItemModel = gameItemArray[indexPath.row]
         return gameItemCell!
     }
 

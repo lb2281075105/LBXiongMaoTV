@@ -16,6 +16,11 @@ class LBXMGameModel: NSObject {
     var ext: String	= ""
     var status: Int?
     var cdn_rate: Int?
+    ///gameItem
+    var userinfo:[String:AnyObject]?
+    var pictures:[String:AnyObject]?
+    var person_num:Int = 0
+    var name:String = ""
     
     var nickName: String = ""
     var rid: Int = 0
