@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+typealias itemArrow = () -> ()
 class LBXMMineItemArrow: NSObject {
     ///跳转控制器
     var vc:String = ""
@@ -15,6 +15,7 @@ class LBXMMineItemArrow: NSObject {
     var imageString:String?
     ///标题
     var title:String?
+    var itemBlcok:itemArrow?
     
     class func itemWithArrow(icon:String,title:String,vc:String) -> LBXMMineItemArrow {
         

@@ -56,7 +56,12 @@ extension LBXMBaseVController:UITableViewDelegate,UITableViewDataSource{
         if ((item?.block) != nil) {
             item?.block!()
         }
+        let itemArrow = group.items[indexPath.row] as?LBXMMineItemArrow
+
         ///跳转控制器
+        if ((itemArrow?.itemBlcok) != nil) {
+            itemArrow?.itemBlcok!()
+        }
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {

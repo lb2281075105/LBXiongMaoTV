@@ -14,6 +14,7 @@
 		F80113931EA0AC3200C6CC8E /* LBXMMineVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80113921EA0AC3200C6CC8E /* LBXMMineVController.swift */; };
 		F80113971EA0AC5A00C6CC8E /* LBXMBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80113951EA0AC5A00C6CC8E /* LBXMBaseCell.swift */; };
 		F80113981EA0AC5A00C6CC8E /* LBXMBaseVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80113961EA0AC5A00C6CC8E /* LBXMBaseVController.swift */; };
+		F801139B1EA0C72C00C6CC8E /* LBXMMineItemArrowVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F801139A1EA0C72C00C6CC8E /* LBXMMineItemArrowVController.swift */; };
 		F82FC7891E9CD0A500B1BE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82FC7881E9CD0A500B1BE30 /* AppDelegate.swift */; };
 		F82FC7901E9CD0A600B1BE30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82FC78F1E9CD0A600B1BE30 /* Assets.xcassets */; };
 		F82FC7931E9CD0A600B1BE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82FC7911E9CD0A600B1BE30 /* LaunchScreen.storyboard */; };
@@ -90,6 +91,7 @@
 		F80113921EA0AC3200C6CC8E /* LBXMMineVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMineVController.swift; sourceTree = "<group>"; };
 		F80113951EA0AC5A00C6CC8E /* LBXMBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMBaseCell.swift; sourceTree = "<group>"; };
 		F80113961EA0AC5A00C6CC8E /* LBXMBaseVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMBaseVController.swift; sourceTree = "<group>"; };
+		F801139A1EA0C72C00C6CC8E /* LBXMMineItemArrowVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMineItemArrowVController.swift; sourceTree = "<group>"; };
 		F82FC7851E9CD0A500B1BE30 /* LBXiongMaoTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBXiongMaoTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82FC7881E9CD0A500B1BE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F82FC78F1E9CD0A600B1BE30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -249,6 +251,15 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		F80113991EA0C71900C6CC8E /* LBXMMineItemArrowVController */ = {
+			isa = PBXGroup;
+			children = (
+				F801139A1EA0C72C00C6CC8E /* LBXMMineItemArrowVController.swift */,
+			);
+			name = LBXMMineItemArrowVController;
+			path = Base/LBXMMineItemArrowVController;
+			sourceTree = "<group>";
+		};
 		F82FC77C1E9CD0A500B1BE30 = {
 			isa = PBXGroup;
 			children = (
@@ -333,6 +344,7 @@
 		F84A45421E9DDD5E004C26B8 /* Mine(我的) */ = {
 			isa = PBXGroup;
 			children = (
+				F80113991EA0C71900C6CC8E /* LBXMMineItemArrowVController */,
 				F80113941EA0AC5A00C6CC8E /* Base */,
 				F80113911EA0AC3200C6CC8E /* mine(我的) */,
 				F80113881EA0A8C500C6CC8E /* Set(设置) */,
@@ -702,6 +714,7 @@
 				F82FC7BD1E9CD48A00B1BE30 /* UILabel+CZAddition.m in Sources */,
 				F8589A1E1E9F5E2200AAE36B /* ConstraintView+Extensions.swift in Sources */,
 				F85899D71E9F26AB00AAE36B /* YYClassInfo.m in Sources */,
+				F801139B1EA0C72C00C6CC8E /* LBXMMineItemArrowVController.swift in Sources */,
 				F8589A0C1E9F5E2200AAE36B /* ConstraintInsets.swift in Sources */,
 				F82FC7B81E9CD48A00B1BE30 /* NSString+CZBase64.m in Sources */,
 				F82FC7BC1E9CD48A00B1BE30 /* UIColor+CZAddition.m in Sources */,

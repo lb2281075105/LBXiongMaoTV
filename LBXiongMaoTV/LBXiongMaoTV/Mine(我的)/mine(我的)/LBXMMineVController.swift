@@ -91,6 +91,12 @@ extension LBXMMineVController{
     ///0组
     func addGroup0(){
         let itemArrowBo = LBXMMineItemArrow.itemWithArrow(icon: "mine_zhubo", title: "我要当主播", vc: "")
+        itemArrowBo.itemBlcok = { [weak self] in 
+        
+            let arrowVC = LBXMMineItemArrowVController()
+            arrowVC.title = itemArrowBo.title
+            self?.navigationController?.pushViewController(arrowVC, animated: true)
+        }
         let group0 = LBXMMineGroup()
         group0.items.append(itemArrowBo)
         groupArray.append(group0)
