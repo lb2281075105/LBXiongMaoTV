@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		31A7E3547F416E6452E26EDF /* Pods_LBXiongMaoTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2F95E49997CB25059A4A8F /* Pods_LBXiongMaoTV.framework */; };
+		F801138A1EA0A8C500C6CC8E /* LBXMMineSetVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80113891EA0A8C500C6CC8E /* LBXMMineSetVController.swift */; };
+		F801138E1EA0AAC600C6CC8E /* LBXMMineItemLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F801138D1EA0AAC600C6CC8E /* LBXMMineItemLabel.swift */; };
+		F80113901EA0AAD100C6CC8E /* LBXMMineItemSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F801138F1EA0AAD100C6CC8E /* LBXMMineItemSwitch.swift */; };
+		F80113931EA0AC3200C6CC8E /* LBXMMineVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80113921EA0AC3200C6CC8E /* LBXMMineVController.swift */; };
+		F80113971EA0AC5A00C6CC8E /* LBXMBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80113951EA0AC5A00C6CC8E /* LBXMBaseCell.swift */; };
+		F80113981EA0AC5A00C6CC8E /* LBXMBaseVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80113961EA0AC5A00C6CC8E /* LBXMBaseVController.swift */; };
 		F82FC7891E9CD0A500B1BE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82FC7881E9CD0A500B1BE30 /* AppDelegate.swift */; };
 		F82FC7901E9CD0A600B1BE30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82FC78F1E9CD0A600B1BE30 /* Assets.xcassets */; };
 		F82FC7931E9CD0A600B1BE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82FC7911E9CD0A600B1BE30 /* LaunchScreen.storyboard */; };
@@ -23,7 +29,6 @@
 		F82FC7BE1E9CD48A00B1BE30 /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F82FC7B01E9CD48A00B1BE30 /* UIScreen+CZAddition.m */; };
 		F82FC7BF1E9CD48A00B1BE30 /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F82FC7B21E9CD48A00B1BE30 /* UIView+CZAddition.m */; };
 		F82FC7C01E9CD48A00B1BE30 /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F82FC7B41E9CD48A00B1BE30 /* UIViewController+CZAddition.m */; };
-		F84A45441E9DDD5E004C26B8 /* LBXMMineVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A45431E9DDD5E004C26B8 /* LBXMMineVController.swift */; };
 		F84A45471E9DDD65004C26B8 /* LBXMSmallXiuVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A45461E9DDD65004C26B8 /* LBXMSmallXiuVController.swift */; };
 		F84A454A1E9DDD6C004C26B8 /* LBXMYuLeVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A45491E9DDD6C004C26B8 /* LBXMYuLeVController.swift */; };
 		F84A454D1E9DDD73004C26B8 /* LBXMGameVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A454C1E9DDD73004C26B8 /* LBXMGameVController.swift */; };
@@ -68,6 +73,9 @@
 		F8589A241E9F5E2200AAE36B /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8589A051E9F5E2200AAE36B /* UILayoutSupport+Extensions.swift */; };
 		F8589A261E9F6E0000AAE36B /* LBXMGameItemVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8589A251E9F6E0000AAE36B /* LBXMGameItemVController.swift */; };
 		F8589A291E9F752600AAE36B /* LBXMGameItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8589A281E9F752600AAE36B /* LBXMGameItemCell.swift */; };
+		F86FC55E1EA0660B00BE416C /* LBXMMineGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86FC55D1EA0660B00BE416C /* LBXMMineGroup.swift */; };
+		F86FC5601EA0663A00BE416C /* LBXMMineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86FC55F1EA0663A00BE416C /* LBXMMineItem.swift */; };
+		F86FC5621EA066FA00BE416C /* LBXMMineItemArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86FC5611EA066FA00BE416C /* LBXMMineItemArrow.swift */; };
 		F8E1F6691E9E1B8F0068F099 /* LBXMNavVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E1F6671E9E1B8F0068F099 /* LBXMNavVController.swift */; };
 		F8E1F66A1E9E1B8F0068F099 /* LBXMTabBarVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E1F6681E9E1B8F0068F099 /* LBXMTabBarVController.swift */; };
 /* End PBXBuildFile section */
@@ -76,6 +84,12 @@
 		71879C5AD8F3470758A134DE /* Pods-LBXiongMaoTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBXiongMaoTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBXiongMaoTV/Pods-LBXiongMaoTV.release.xcconfig"; sourceTree = "<group>"; };
 		9A2F95E49997CB25059A4A8F /* Pods_LBXiongMaoTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBXiongMaoTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B980AC57E8DB9E54BAE2FDE7 /* Pods-LBXiongMaoTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBXiongMaoTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBXiongMaoTV/Pods-LBXiongMaoTV.debug.xcconfig"; sourceTree = "<group>"; };
+		F80113891EA0A8C500C6CC8E /* LBXMMineSetVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMineSetVController.swift; sourceTree = "<group>"; };
+		F801138D1EA0AAC600C6CC8E /* LBXMMineItemLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMineItemLabel.swift; sourceTree = "<group>"; };
+		F801138F1EA0AAD100C6CC8E /* LBXMMineItemSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMineItemSwitch.swift; sourceTree = "<group>"; };
+		F80113921EA0AC3200C6CC8E /* LBXMMineVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMineVController.swift; sourceTree = "<group>"; };
+		F80113951EA0AC5A00C6CC8E /* LBXMBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMBaseCell.swift; sourceTree = "<group>"; };
+		F80113961EA0AC5A00C6CC8E /* LBXMBaseVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMBaseVController.swift; sourceTree = "<group>"; };
 		F82FC7851E9CD0A500B1BE30 /* LBXiongMaoTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBXiongMaoTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82FC7881E9CD0A500B1BE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F82FC78F1E9CD0A600B1BE30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,7 +121,6 @@
 		F82FC7B31E9CD48A00B1BE30 /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
 		F82FC7B41E9CD48A00B1BE30 /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
 		F82FC7C11E9CD50100B1BE30 /* LBXiongMaoTV-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LBXiongMaoTV-Bridge.h"; sourceTree = "<group>"; };
-		F84A45431E9DDD5E004C26B8 /* LBXMMineVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMineVController.swift; sourceTree = "<group>"; };
 		F84A45461E9DDD65004C26B8 /* LBXMSmallXiuVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMSmallXiuVController.swift; sourceTree = "<group>"; };
 		F84A45491E9DDD6C004C26B8 /* LBXMYuLeVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMYuLeVController.swift; sourceTree = "<group>"; };
 		F84A454C1E9DDD73004C26B8 /* LBXMGameVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMGameVController.swift; sourceTree = "<group>"; };
@@ -156,6 +169,9 @@
 		F8589A051E9F5E2200AAE36B /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		F8589A251E9F6E0000AAE36B /* LBXMGameItemVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMGameItemVController.swift; sourceTree = "<group>"; };
 		F8589A281E9F752600AAE36B /* LBXMGameItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMGameItemCell.swift; sourceTree = "<group>"; };
+		F86FC55D1EA0660B00BE416C /* LBXMMineGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMineGroup.swift; sourceTree = "<group>"; };
+		F86FC55F1EA0663A00BE416C /* LBXMMineItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMineItem.swift; sourceTree = "<group>"; };
+		F86FC5611EA066FA00BE416C /* LBXMMineItemArrow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMineItemArrow.swift; sourceTree = "<group>"; };
 		F8E1F6671E9E1B8F0068F099 /* LBXMNavVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMNavVController.swift; sourceTree = "<group>"; };
 		F8E1F6681E9E1B8F0068F099 /* LBXMTabBarVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMTabBarVController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -188,6 +204,49 @@
 				71879C5AD8F3470758A134DE /* Pods-LBXiongMaoTV.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F80113881EA0A8C500C6CC8E /* Set(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				F80113891EA0A8C500C6CC8E /* LBXMMineSetVController.swift */,
+			);
+			path = "Set(设置)";
+			sourceTree = "<group>";
+		};
+		F801138B1EA0AAAF00C6CC8E /* LBXMMineItemLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F801138D1EA0AAC600C6CC8E /* LBXMMineItemLabel.swift */,
+			);
+			name = LBXMMineItemLabel;
+			path = LBXMMineItem/LBXMMineItemLabel;
+			sourceTree = "<group>";
+		};
+		F801138C1EA0AAAF00C6CC8E /* LBXMMineItemSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				F801138F1EA0AAD100C6CC8E /* LBXMMineItemSwitch.swift */,
+			);
+			name = LBXMMineItemSwitch;
+			path = LBXMMineItem/LBXMMineItemSwitch;
+			sourceTree = "<group>";
+		};
+		F80113911EA0AC3200C6CC8E /* mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				F80113921EA0AC3200C6CC8E /* LBXMMineVController.swift */,
+			);
+			path = "mine(我的)";
+			sourceTree = "<group>";
+		};
+		F80113941EA0AC5A00C6CC8E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F80113961EA0AC5A00C6CC8E /* LBXMBaseVController.swift */,
+				F80113951EA0AC5A00C6CC8E /* LBXMBaseCell.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		F82FC77C1E9CD0A500B1BE30 = {
@@ -274,7 +333,14 @@
 		F84A45421E9DDD5E004C26B8 /* Mine(我的) */ = {
 			isa = PBXGroup;
 			children = (
-				F84A45431E9DDD5E004C26B8 /* LBXMMineVController.swift */,
+				F80113941EA0AC5A00C6CC8E /* Base */,
+				F80113911EA0AC3200C6CC8E /* mine(我的) */,
+				F80113881EA0A8C500C6CC8E /* Set(设置) */,
+				F86FC55A1EA065E400BE416C /* LBXMMineGroupModel */,
+				F86FC55B1EA065E400BE416C /* LBXMMineItem */,
+				F801138B1EA0AAAF00C6CC8E /* LBXMMineItemLabel */,
+				F801138C1EA0AAAF00C6CC8E /* LBXMMineItemSwitch */,
+				F86FC55C1EA065E400BE416C /* LBXMMineItemArrow */,
 			);
 			path = "Mine(我的)";
 			sourceTree = "<group>";
@@ -422,6 +488,30 @@
 			path = LBXMGameItemCell;
 			sourceTree = "<group>";
 		};
+		F86FC55A1EA065E400BE416C /* LBXMMineGroupModel */ = {
+			isa = PBXGroup;
+			children = (
+				F86FC55D1EA0660B00BE416C /* LBXMMineGroup.swift */,
+			);
+			path = LBXMMineGroupModel;
+			sourceTree = "<group>";
+		};
+		F86FC55B1EA065E400BE416C /* LBXMMineItem */ = {
+			isa = PBXGroup;
+			children = (
+				F86FC55F1EA0663A00BE416C /* LBXMMineItem.swift */,
+			);
+			path = LBXMMineItem;
+			sourceTree = "<group>";
+		};
+		F86FC55C1EA065E400BE416C /* LBXMMineItemArrow */ = {
+			isa = PBXGroup;
+			children = (
+				F86FC5611EA066FA00BE416C /* LBXMMineItemArrow.swift */,
+			);
+			path = LBXMMineItemArrow;
+			sourceTree = "<group>";
+		};
 		F8E1F6661E9E1B8F0068F099 /* main */ = {
 			isa = PBXGroup;
 			children = (
@@ -566,6 +656,8 @@
 				F84A454D1E9DDD73004C26B8 /* LBXMGameVController.swift in Sources */,
 				F8589A151E9F5E2200AAE36B /* ConstraintMakerExtendable.swift in Sources */,
 				F8589A131E9F5E2200AAE36B /* ConstraintMaker.swift in Sources */,
+				F801138E1EA0AAC600C6CC8E /* LBXMMineItemLabel.swift in Sources */,
+				F80113971EA0AC5A00C6CC8E /* LBXMBaseCell.swift in Sources */,
 				F8589A191E9F5E2200AAE36B /* ConstraintMultiplierTarget.swift in Sources */,
 				F8589A221E9F5E2200AAE36B /* LayoutConstraint.swift in Sources */,
 				F8589A291E9F752600AAE36B /* LBXMGameItemCell.swift in Sources */,
@@ -574,10 +666,12 @@
 				F82FC7891E9CD0A500B1BE30 /* AppDelegate.swift in Sources */,
 				F84A454A1E9DDD6C004C26B8 /* LBXMYuLeVController.swift in Sources */,
 				F8E1F6691E9E1B8F0068F099 /* LBXMNavVController.swift in Sources */,
+				F80113901EA0AAD100C6CC8E /* LBXMMineItemSwitch.swift in Sources */,
 				F82FC7B51E9CD48A00B1BE30 /* NSArray+Log.m in Sources */,
 				F8589A171E9F5E2200AAE36B /* ConstraintMakerPriortizable.swift in Sources */,
 				F8589A241E9F5E2200AAE36B /* UILayoutSupport+Extensions.swift in Sources */,
 				F82FC7BE1E9CD48A00B1BE30 /* UIScreen+CZAddition.m in Sources */,
+				F80113931EA0AC3200C6CC8E /* LBXMMineVController.swift in Sources */,
 				F8589A1D1E9F5E2200AAE36B /* ConstraintRelation.swift in Sources */,
 				F82FC7BF1E9CD48A00B1BE30 /* UIView+CZAddition.m in Sources */,
 				F8589A261E9F6E0000AAE36B /* LBXMGameItemVController.swift in Sources */,
@@ -586,19 +680,23 @@
 				F8589A0B1E9F5E2200AAE36B /* ConstraintDSL.swift in Sources */,
 				F82FC7B71E9CD48A00B1BE30 /* NSObject+CZRuntime.m in Sources */,
 				F82FC7BA1E9CD48A00B1BE30 /* NSString+CZPath.m in Sources */,
+				F801138A1EA0A8C500C6CC8E /* LBXMMineSetVController.swift in Sources */,
 				F8589A081E9F5E2200AAE36B /* ConstraintConfig.swift in Sources */,
 				F8589A141E9F5E2200AAE36B /* ConstraintMakerEditable.swift in Sources */,
 				F8589A111E9F5E2200AAE36B /* ConstraintLayoutSupport.swift in Sources */,
+				F86FC5621EA066FA00BE416C /* LBXMMineItemArrow.swift in Sources */,
 				F84A45541E9E0CB3004C26B8 /* LBXMSearchVController.swift in Sources */,
 				F8589A061E9F5E2200AAE36B /* Constraint.swift in Sources */,
+				F86FC5601EA0663A00BE416C /* LBXMMineItem.swift in Sources */,
 				F8589A161E9F5E2200AAE36B /* ConstraintMakerFinalizable.swift in Sources */,
+				F80113981EA0AC5A00C6CC8E /* LBXMBaseVController.swift in Sources */,
 				F8589A181E9F5E2200AAE36B /* ConstraintMakerRelatable.swift in Sources */,
 				F85899E31E9F594200AAE36B /* LBXMGameCell.swift in Sources */,
-				F84A45441E9DDD5E004C26B8 /* LBXMMineVController.swift in Sources */,
 				F82FC7B91E9CD48A00B1BE30 /* NSString+CZHash.m in Sources */,
 				F8589A211E9F5E2200AAE36B /* Debugging.swift in Sources */,
 				F82FC7BB1E9CD48A00B1BE30 /* UIButton+CZAddition.m in Sources */,
 				F85899CC1E9F1C5700AAE36B /* LBXMGameViewModel.swift in Sources */,
+				F86FC55E1EA0660B00BE416C /* LBXMMineGroup.swift in Sources */,
 				F85899C71E9F004400AAE36B /* LBXMNetWork.swift in Sources */,
 				F8589A1C1E9F5E2200AAE36B /* ConstraintRelatableTarget.swift in Sources */,
 				F82FC7BD1E9CD48A00B1BE30 /* UILabel+CZAddition.m in Sources */,
