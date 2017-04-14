@@ -13,7 +13,6 @@ class LBXMMineItem: NSObject {
     var imageString:String?
     ///标题
     var title:String?
-    
     class func itemWithIcon(icon:String,title:String) -> AnyObject {
         let item = LBXMMineItem()
         item.imageString = icon

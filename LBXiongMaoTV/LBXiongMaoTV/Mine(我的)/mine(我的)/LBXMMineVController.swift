@@ -90,43 +90,43 @@ extension LBXMMineVController{
     }
     ///0组
     func addGroup0(){
-        let itemArrowBo = LBXMMineItemArrow.itemWithIcon(icon: "mine_zhubo", title: "我要当主播", vc: "")
+        let itemArrowBo = LBXMMineItemArrow.itemWithArrow(icon: "mine_zhubo", title: "我要当主播", vc: "")
         let group0 = LBXMMineGroup()
-        group0.items.append(itemArrowBo as! LBXMMineItemArrow)
+        group0.items.append(itemArrowBo)
         groupArray.append(group0)
     }
     ///一组
     func addGroup1(){
-        let itemArrowYue = LBXMMineItemArrow.itemWithIcon(icon: "mine_attentionIcon", title: "我的订阅", vc: "")
+        let itemArrowYue = LBXMMineItemArrow.itemWithArrow(icon: "mine_attentionIcon", title: "我的订阅", vc: "")
         let group1 = LBXMMineGroup()
         group1.headerTitle = "订阅"
         group1.footerTitle = "我的"
-        group1.items.append(itemArrowYue as! LBXMMineItemArrow)
+        group1.items.append(itemArrowYue)
         groupArray.append(group1)
     }
     ///二组
     func addGroup2(){
-        let itemArrowKan = LBXMMineItemArrow.itemWithIcon(icon: "mine_histroyIcon", title: "观看历史", vc: "")
+        let itemArrowKan = LBXMMineItemArrow.itemWithArrow(icon: "mine_histroyIcon", title: "观看历史", vc: "")
         let group2 = LBXMMineGroup()
         group2.footerTitle = "观看"
-        group2.items.append(itemArrowKan as! LBXMMineItemArrow)
+        group2.items.append(itemArrowKan)
         groupArray.append(group2)
     }
     ///三组
     func addGroup3(){
-        let itemArrowXin = LBXMMineItemArrow.itemWithIcon(icon: "mine_message_icon", title: "私信", vc: "Xin")
-        let itemArrowYao = LBXMMineItemArrow.itemWithIcon(icon: "shake_icon", title: "摇一摇", vc: "Yao")
+        let itemArrowXin = LBXMMineItemArrow.itemWithArrow(icon: "mine_message_icon", title: "私信", vc: "Xin")
+        let itemArrowYao = LBXMMineItemArrow.itemWithArrow(icon: "shake_icon", title: "摇一摇", vc: "Yao")
 
-        let itemArrowHuo = LBXMMineItemArrow.itemWithIcon(icon: "mine_activityIcon", title: "活动中心", vc: "Huo")
+        let itemArrowHuo = LBXMMineItemArrow.itemWithArrow(icon: "mine_activityIcon", title: "活动中心", vc: "Huo")
 
-        let itemArrowKai = LBXMMineItemArrow.itemWithIcon(icon: "mine_remindIcon", title: "开播提醒", vc: "")
+        let itemArrowKai = LBXMMineItemArrow.itemWithArrow(icon: "mine_remindIcon", title: "开播提醒", vc: "")
 
-        let itemArrowYi = LBXMMineItemArrow.itemWithIcon(icon: "mine_suggestIcon", title: "意见反馈", vc: "") as!LBXMMineItemArrow
+        let itemArrowYi = LBXMMineItemArrow.itemWithArrow(icon: "mine_suggestIcon", title: "意见反馈", vc: "")
         let group3 = LBXMMineGroup()
-        group3.items.append(itemArrowXin as!LBXMMineItemArrow)
-        group3.items.append(itemArrowYao as!LBXMMineItemArrow)
-        group3.items.append(itemArrowHuo as!LBXMMineItemArrow)
-        group3.items.append(itemArrowKai as! LBXMMineItemArrow)
+        group3.items.append(itemArrowXin)
+        group3.items.append(itemArrowYao)
+        group3.items.append(itemArrowHuo)
+        group3.items.append(itemArrowKai)
         group3.items.append(itemArrowYi)
 
         groupArray.append(group3)

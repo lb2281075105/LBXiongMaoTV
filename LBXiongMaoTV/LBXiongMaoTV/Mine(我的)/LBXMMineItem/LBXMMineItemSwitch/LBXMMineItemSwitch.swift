@@ -13,9 +13,9 @@ class LBXMMineItemSwitch: NSObject {
     var title:String = ""
     var vc:String = ""
     
-    class func itemWithSwitch(icon:String,title:String,vc:String) -> LBXMMineItemSwitch{
+    class func itemWithSwitch(imageString:String,title:String,vc:String) -> LBXMMineItemSwitch{
         let itemSwitch = LBXMMineItemSwitch()
-        itemSwitch.imageString = icon
+        itemSwitch.imageString = imageString
         itemSwitch.title = title
         itemSwitch.vc = vc
         return itemSwitch

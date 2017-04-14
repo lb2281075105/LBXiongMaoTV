@@ -41,7 +41,7 @@ extension LBXMBaseVController:UITableViewDelegate,UITableViewDataSource{
         let baseCell = LBXMBaseCell.baseWithCell(tableView: tableView)
         let group = groupArray[indexPath.section]
         
-        baseCell.item = group.items[indexPath.row] as? AnyObject
+        baseCell.item = group.items[indexPath.row]
         
         return baseCell
     }
@@ -53,8 +53,8 @@ extension LBXMBaseVController:UITableViewDelegate,UITableViewDataSource{
         let item = group.items[indexPath.row] as?LBXMMineItemLabel
         
         ///block的回调
-        if ((item?.blcok) != nil) {
-            item?.blcok!()
+        if ((item?.block) != nil) {
+            item?.block!()
         }
         ///跳转控制器
     }

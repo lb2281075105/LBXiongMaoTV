@@ -9,16 +9,15 @@
 import UIKit
 typealias itemBlock = () -> ()
 class LBXMMineItemLabel: NSObject {
-    
     var imageString:String = ""
     var title:String = ""
     var vc:String = ""
-    ///block属性
-    var blcok:itemBlock?
+    ///blcok属性
+    var block:itemBlock?
     
-    class func itemWithLabel(icon:String,title:String,vc:String) -> LBXMMineItemLabel{
+    class func itemWithLabel(imageString:String,title:String,vc:String) -> LBXMMineItemLabel{
         let itemLabel = LBXMMineItemLabel()
-        itemLabel.imageString = icon
+        itemLabel.imageString = imageString
         itemLabel.title = title
         itemLabel.vc = vc
         return itemLabel

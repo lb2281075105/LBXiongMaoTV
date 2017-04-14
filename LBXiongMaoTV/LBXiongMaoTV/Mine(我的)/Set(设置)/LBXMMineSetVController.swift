@@ -28,23 +28,22 @@ class LBXMMineSetVController: LBXMBaseVController {
 extension LBXMMineSetVController{
 
         func addGroup0(){
-            let itemArrowSao = LBXMMineItemArrow.itemWithIcon(icon: "", title: "扫一扫", vc: "")
+            let itemArrowSao = LBXMMineItemArrow.itemWithArrow(icon: "", title: "扫一扫", vc: "")
             let group0 = LBXMMineGroup()
             group0.items.append(itemArrowSao as! LBXMMineItemArrow)
             groupArray.append(group0)
         }
 
         func addGroup1(){
-            let itemArrowMa = LBXMMineItemSwitch.itemWithSwitch(icon: "", title: "硬件解码", vc: "")
+            let itemArrowMa = LBXMMineItemSwitch.itemWithSwitch(imageString: "", title: "硬件解码", vc: "")
             let group1 = LBXMMineGroup()
             group1.items.append(itemArrowMa)
             groupArray.append(group1)
         }
     
         func addGroup2(){
-            let itemArrowQing = LBXMMineItemLabel.itemWithLabel(icon: "", title: "清除缓存", vc: "")
-            itemArrowQing.blcok = {
-               
+            let itemArrowQing = LBXMMineItemLabel.itemWithLabel(imageString: "", title: "清除缓存", vc: "")
+            itemArrowQing.block = {
               let alert = UIAlertView.init(title: "", message: "你确定清除缓存吗", delegate: nil, cancelButtonTitle: "取消", otherButtonTitles: "确定")
               alert.show()
             }
@@ -54,9 +53,9 @@ extension LBXMMineSetVController{
         }
     
         func addGroup3(){
-            let itemArrowWo = LBXMMineItemArrow.itemWithIcon(icon: "", title: "关于我们", vc: "")
+            let itemArrowWo = LBXMMineItemArrow.itemWithArrow(icon: "", title: "关于我们", vc: "")
             let group3 = LBXMMineGroup()
-            group3.items.append(itemArrowWo as! LBXMMineItemArrow)
+            group3.items.append(itemArrowWo)
             groupArray.append(group3)
         }
 

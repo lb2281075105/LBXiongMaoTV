@@ -16,7 +16,7 @@ class LBXMMineItemArrow: NSObject {
     ///标题
     var title:String?
     
-    class func itemWithIcon(icon:String,title:String,vc:String) -> AnyObject {
+    class func itemWithArrow(icon:String,title:String,vc:String) -> LBXMMineItemArrow {
         
         let itemArrow = LBXMMineItemArrow()
         itemArrow.imageString = icon
