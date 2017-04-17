@@ -15,6 +15,8 @@
 		F80113971EA0AC5A00C6CC8E /* LBXMBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80113951EA0AC5A00C6CC8E /* LBXMBaseCell.swift */; };
 		F80113981EA0AC5A00C6CC8E /* LBXMBaseVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80113961EA0AC5A00C6CC8E /* LBXMBaseVController.swift */; };
 		F801139B1EA0C72C00C6CC8E /* LBXMMineItemArrowVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F801139A1EA0C72C00C6CC8E /* LBXMMineItemArrowVController.swift */; };
+		F801139F1EA0CE8A00C6CC8E /* LBXMYuLeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F801139E1EA0CE8A00C6CC8E /* LBXMYuLeViewModel.swift */; };
+		F80113A11EA0CE9600C6CC8E /* LBXMYuLeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80113A01EA0CE9600C6CC8E /* LBXMYuLeModel.swift */; };
 		F82FC7891E9CD0A500B1BE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82FC7881E9CD0A500B1BE30 /* AppDelegate.swift */; };
 		F82FC7901E9CD0A600B1BE30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82FC78F1E9CD0A600B1BE30 /* Assets.xcassets */; };
 		F82FC7931E9CD0A600B1BE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82FC7911E9CD0A600B1BE30 /* LaunchScreen.storyboard */; };
@@ -77,6 +79,13 @@
 		F86FC55E1EA0660B00BE416C /* LBXMMineGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86FC55D1EA0660B00BE416C /* LBXMMineGroup.swift */; };
 		F86FC5601EA0663A00BE416C /* LBXMMineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86FC55F1EA0663A00BE416C /* LBXMMineItem.swift */; };
 		F86FC5621EA066FA00BE416C /* LBXMMineItemArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86FC5611EA066FA00BE416C /* LBXMMineItemArrow.swift */; };
+		F887E3511EA492F3006399F7 /* UIView+YMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F887E3501EA492F3006399F7 /* UIView+YMExtension.m */; };
+		F887E3671EA4A6DD006399F7 /* LBXMOutdoorVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F887E3661EA4A6DD006399F7 /* LBXMOutdoorVController.swift */; };
+		F887E3691EA4A6F4006399F7 /* LBXMPetVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F887E3681EA4A6F4006399F7 /* LBXMPetVController.swift */; };
+		F887E36B1EA4A6FF006399F7 /* LBXMXinXiuVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F887E36A1EA4A6FF006399F7 /* LBXMXinXiuVController.swift */; };
+		F887E36D1EA4A70E006399F7 /* LBXMMusicVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F887E36C1EA4A70E006399F7 /* LBXMMusicVController.swift */; };
+		F887E36F1EA4A726006399F7 /* LBXMYouVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F887E36E1EA4A726006399F7 /* LBXMYouVController.swift */; };
+		F887E3741EA4B2CF006399F7 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F887E3731EA4B2CF006399F7 /* Bundle+Extensions.swift */; };
 		F8E1F6691E9E1B8F0068F099 /* LBXMNavVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E1F6671E9E1B8F0068F099 /* LBXMNavVController.swift */; };
 		F8E1F66A1E9E1B8F0068F099 /* LBXMTabBarVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E1F6681E9E1B8F0068F099 /* LBXMTabBarVController.swift */; };
 /* End PBXBuildFile section */
@@ -92,6 +101,8 @@
 		F80113951EA0AC5A00C6CC8E /* LBXMBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMBaseCell.swift; sourceTree = "<group>"; };
 		F80113961EA0AC5A00C6CC8E /* LBXMBaseVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMBaseVController.swift; sourceTree = "<group>"; };
 		F801139A1EA0C72C00C6CC8E /* LBXMMineItemArrowVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMineItemArrowVController.swift; sourceTree = "<group>"; };
+		F801139E1EA0CE8A00C6CC8E /* LBXMYuLeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMYuLeViewModel.swift; sourceTree = "<group>"; };
+		F80113A01EA0CE9600C6CC8E /* LBXMYuLeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMYuLeModel.swift; sourceTree = "<group>"; };
 		F82FC7851E9CD0A500B1BE30 /* LBXiongMaoTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBXiongMaoTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82FC7881E9CD0A500B1BE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F82FC78F1E9CD0A600B1BE30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -174,6 +185,14 @@
 		F86FC55D1EA0660B00BE416C /* LBXMMineGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMineGroup.swift; sourceTree = "<group>"; };
 		F86FC55F1EA0663A00BE416C /* LBXMMineItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMineItem.swift; sourceTree = "<group>"; };
 		F86FC5611EA066FA00BE416C /* LBXMMineItemArrow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMineItemArrow.swift; sourceTree = "<group>"; };
+		F887E34F1EA492F3006399F7 /* UIView+YMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YMExtension.h"; sourceTree = "<group>"; };
+		F887E3501EA492F3006399F7 /* UIView+YMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YMExtension.m"; sourceTree = "<group>"; };
+		F887E3661EA4A6DD006399F7 /* LBXMOutdoorVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMOutdoorVController.swift; sourceTree = "<group>"; };
+		F887E3681EA4A6F4006399F7 /* LBXMPetVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMPetVController.swift; sourceTree = "<group>"; };
+		F887E36A1EA4A6FF006399F7 /* LBXMXinXiuVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMXinXiuVController.swift; sourceTree = "<group>"; };
+		F887E36C1EA4A70E006399F7 /* LBXMMusicVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMusicVController.swift; sourceTree = "<group>"; };
+		F887E36E1EA4A726006399F7 /* LBXMYouVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMYouVController.swift; sourceTree = "<group>"; };
+		F887E3731EA4B2CF006399F7 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
 		F8E1F6671E9E1B8F0068F099 /* LBXMNavVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMNavVController.swift; sourceTree = "<group>"; };
 		F8E1F6681E9E1B8F0068F099 /* LBXMTabBarVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMTabBarVController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -260,6 +279,22 @@
 			path = Base/LBXMMineItemArrowVController;
 			sourceTree = "<group>";
 		};
+		F801139C1EA0CE7900C6CC8E /* LBXMYuLeModel */ = {
+			isa = PBXGroup;
+			children = (
+				F80113A01EA0CE9600C6CC8E /* LBXMYuLeModel.swift */,
+			);
+			path = LBXMYuLeModel;
+			sourceTree = "<group>";
+		};
+		F801139D1EA0CE7900C6CC8E /* LBXMYuLeViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F801139E1EA0CE8A00C6CC8E /* LBXMYuLeViewModel.swift */,
+			);
+			path = LBXMYuLeViewModel;
+			sourceTree = "<group>";
+		};
 		F82FC77C1E9CD0A500B1BE30 = {
 			isa = PBXGroup;
 			children = (
@@ -303,6 +338,8 @@
 		F82FC79A1E9CD45D00B1BE30 /* UI框架 */ = {
 			isa = PBXGroup;
 			children = (
+				F887E3721EA4B2CF006399F7 /* Bundle+Extensions */,
+				F887E34E1EA492F3006399F7 /* UIView+YMExtension */,
 				F85899D01E9F26AB00AAE36B /* YYModel */,
 				F82FC79B1E9CD48A00B1BE30 /* Additions */,
 			);
@@ -369,6 +406,13 @@
 			isa = PBXGroup;
 			children = (
 				F84A45491E9DDD6C004C26B8 /* LBXMYuLeVController.swift */,
+				F887E3521EA4A0FE006399F7 /* 户外直播 */,
+				F887E3531EA4A0FE006399F7 /* 萌宠乐园 */,
+				F887E3541EA4A0FE006399F7 /* 熊猫新秀 */,
+				F887E3551EA4A0FE006399F7 /* 音乐 */,
+				F887E3561EA4A0FE006399F7 /* 桌游 */,
+				F801139C1EA0CE7900C6CC8E /* LBXMYuLeModel */,
+				F801139D1EA0CE7900C6CC8E /* LBXMYuLeViewModel */,
 			);
 			path = "Entertainment(娱乐)";
 			sourceTree = "<group>";
@@ -524,6 +568,63 @@
 			path = LBXMMineItemArrow;
 			sourceTree = "<group>";
 		};
+		F887E34E1EA492F3006399F7 /* UIView+YMExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F887E34F1EA492F3006399F7 /* UIView+YMExtension.h */,
+				F887E3501EA492F3006399F7 /* UIView+YMExtension.m */,
+			);
+			path = "UIView+YMExtension";
+			sourceTree = "<group>";
+		};
+		F887E3521EA4A0FE006399F7 /* 户外直播 */ = {
+			isa = PBXGroup;
+			children = (
+				F887E3661EA4A6DD006399F7 /* LBXMOutdoorVController.swift */,
+			);
+			path = "户外直播";
+			sourceTree = "<group>";
+		};
+		F887E3531EA4A0FE006399F7 /* 萌宠乐园 */ = {
+			isa = PBXGroup;
+			children = (
+				F887E3681EA4A6F4006399F7 /* LBXMPetVController.swift */,
+			);
+			path = "萌宠乐园";
+			sourceTree = "<group>";
+		};
+		F887E3541EA4A0FE006399F7 /* 熊猫新秀 */ = {
+			isa = PBXGroup;
+			children = (
+				F887E36A1EA4A6FF006399F7 /* LBXMXinXiuVController.swift */,
+			);
+			path = "熊猫新秀";
+			sourceTree = "<group>";
+		};
+		F887E3551EA4A0FE006399F7 /* 音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				F887E36C1EA4A70E006399F7 /* LBXMMusicVController.swift */,
+			);
+			path = "音乐";
+			sourceTree = "<group>";
+		};
+		F887E3561EA4A0FE006399F7 /* 桌游 */ = {
+			isa = PBXGroup;
+			children = (
+				F887E36E1EA4A726006399F7 /* LBXMYouVController.swift */,
+			);
+			path = "桌游";
+			sourceTree = "<group>";
+		};
+		F887E3721EA4B2CF006399F7 /* Bundle+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F887E3731EA4B2CF006399F7 /* Bundle+Extensions.swift */,
+			);
+			path = "Bundle+Extensions";
+			sourceTree = "<group>";
+		};
 		F8E1F6661E9E1B8F0068F099 /* main */ = {
 			isa = PBXGroup;
 			children = (
@@ -659,7 +760,9 @@
 			files = (
 				F8E1F66A1E9E1B8F0068F099 /* LBXMTabBarVController.swift in Sources */,
 				F82FC7C01E9CD48A00B1BE30 /* UIViewController+CZAddition.m in Sources */,
+				F801139F1EA0CE8A00C6CC8E /* LBXMYuLeViewModel.swift in Sources */,
 				F8589A0F1E9F5E2200AAE36B /* ConstraintLayoutGuide.swift in Sources */,
+				F887E3511EA492F3006399F7 /* UIView+YMExtension.m in Sources */,
 				F8589A1B1E9F5E2200AAE36B /* ConstraintPriorityTarget.swift in Sources */,
 				F8589A071E9F5E2200AAE36B /* ConstraintAttributes.swift in Sources */,
 				F8589A121E9F5E2200AAE36B /* ConstraintLayoutSupportDSL.swift in Sources */,
@@ -671,6 +774,7 @@
 				F801138E1EA0AAC600C6CC8E /* LBXMMineItemLabel.swift in Sources */,
 				F80113971EA0AC5A00C6CC8E /* LBXMBaseCell.swift in Sources */,
 				F8589A191E9F5E2200AAE36B /* ConstraintMultiplierTarget.swift in Sources */,
+				F887E36F1EA4A726006399F7 /* LBXMYouVController.swift in Sources */,
 				F8589A221E9F5E2200AAE36B /* LayoutConstraint.swift in Sources */,
 				F8589A291E9F752600AAE36B /* LBXMGameItemCell.swift in Sources */,
 				F8589A1A1E9F5E2200AAE36B /* ConstraintOffsetTarget.swift in Sources */,
@@ -696,6 +800,7 @@
 				F8589A081E9F5E2200AAE36B /* ConstraintConfig.swift in Sources */,
 				F8589A141E9F5E2200AAE36B /* ConstraintMakerEditable.swift in Sources */,
 				F8589A111E9F5E2200AAE36B /* ConstraintLayoutSupport.swift in Sources */,
+				F887E3691EA4A6F4006399F7 /* LBXMPetVController.swift in Sources */,
 				F86FC5621EA066FA00BE416C /* LBXMMineItemArrow.swift in Sources */,
 				F84A45541E9E0CB3004C26B8 /* LBXMSearchVController.swift in Sources */,
 				F8589A061E9F5E2200AAE36B /* Constraint.swift in Sources */,
@@ -711,15 +816,20 @@
 				F86FC55E1EA0660B00BE416C /* LBXMMineGroup.swift in Sources */,
 				F85899C71E9F004400AAE36B /* LBXMNetWork.swift in Sources */,
 				F8589A1C1E9F5E2200AAE36B /* ConstraintRelatableTarget.swift in Sources */,
+				F887E36D1EA4A70E006399F7 /* LBXMMusicVController.swift in Sources */,
 				F82FC7BD1E9CD48A00B1BE30 /* UILabel+CZAddition.m in Sources */,
 				F8589A1E1E9F5E2200AAE36B /* ConstraintView+Extensions.swift in Sources */,
+				F887E36B1EA4A6FF006399F7 /* LBXMXinXiuVController.swift in Sources */,
+				F887E3741EA4B2CF006399F7 /* Bundle+Extensions.swift in Sources */,
 				F85899D71E9F26AB00AAE36B /* YYClassInfo.m in Sources */,
 				F801139B1EA0C72C00C6CC8E /* LBXMMineItemArrowVController.swift in Sources */,
 				F8589A0C1E9F5E2200AAE36B /* ConstraintInsets.swift in Sources */,
 				F82FC7B81E9CD48A00B1BE30 /* NSString+CZBase64.m in Sources */,
+				F887E3671EA4A6DD006399F7 /* LBXMOutdoorVController.swift in Sources */,
 				F82FC7BC1E9CD48A00B1BE30 /* UIColor+CZAddition.m in Sources */,
 				F84A45471E9DDD65004C26B8 /* LBXMSmallXiuVController.swift in Sources */,
 				F8589A101E9F5E2200AAE36B /* ConstraintLayoutGuideDSL.swift in Sources */,
+				F80113A11EA0CE9600C6CC8E /* LBXMYuLeModel.swift in Sources */,
 				F8589A091E9F5E2200AAE36B /* ConstraintConstantTarget.swift in Sources */,
 				F8589A0A1E9F5E2200AAE36B /* ConstraintDescription.swift in Sources */,
 				F8589A231E9F5E2200AAE36B /* UILayoutGuide+Extensions.swift in Sources */,

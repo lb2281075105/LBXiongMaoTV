@@ -11,5 +11,5 @@
 //桥接文件，专门用于引入OC的头文件，一旦引入，Swift就能使用(宏除外)
 #import "CZAdditions.h"
 #import "YYModel.h"
-
+#import "UIView+YMExtension.h"
 #endif /* LBXiongMaoTV_Bridge_h */
