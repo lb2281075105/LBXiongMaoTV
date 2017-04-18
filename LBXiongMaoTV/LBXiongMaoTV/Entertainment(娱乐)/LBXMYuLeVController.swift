@@ -141,8 +141,7 @@ extension LBXMYuLeVController{
 }
 extension LBXMYuLeVController:UIScrollViewDelegate{
 
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        print("滑动")
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         let pageCount = scrollView.contentOffset.x/(UIScreen.cz_screenWidth())
         print("第 \(pageCount) 页")
         btnClick(sender: titleBtnArray[Int(pageCount)])
