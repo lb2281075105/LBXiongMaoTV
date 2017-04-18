@@ -8,16 +8,22 @@
 
 import UIKit
 
-class LBXMYouVController: UIViewController {
+class LBXMYouVController: LBXMYuLeBaseVController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.red
-        let label = UILabel.init(frame: CGRect.init(x: 0, y: 100, width: 200, height: 20))
-        label.text = "第五页"
-        view.addSubview(label)
+
+        ///加载数据
+        addData()
     }
+}
 
- 
-
+extension LBXMYouVController{
+    ///加载数据
+    func addData(){
+        lbxmYuleViewModel.youRequest(isLiveData: true) { (resultArray) in
+            self.baseModelArray = resultArray
+            self.baseCollectionView.reloadData()
+        }
+    }
 }

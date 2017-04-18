@@ -8,31 +8,23 @@
 
 import UIKit
 
-class LBXMOutdoorVController: UIViewController {
+class LBXMOutdoorVController: LBXMYuLeBaseVController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        view.backgroundColor = UIColor.green
-     let label = UILabel.init(frame: CGRect.init(x: 0, y: 100, width: 200, height: 20))
-        label.text = "第一页"
-        view.addSubview(label)
+        ///加载数据
+        addOutdoorData()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
+
+extension LBXMOutdoorVController{
+    ///加载数据
+    func addOutdoorData(){
+        lbxmYuleViewModel.outdoorRequest(isLiveData: true) { (resultArray) in
+            self.baseModelArray = resultArray
+            self.baseCollectionView.reloadData()
+        }
+    }
+}
+
+
