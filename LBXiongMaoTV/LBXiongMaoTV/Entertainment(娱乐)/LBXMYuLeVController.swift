@@ -117,7 +117,7 @@ extension LBXMYuLeVController{
         
         ///["熊猫星秀","户外直播","音乐","萌宠乐园","桌游"]
         
-        let lbxmVCs = ["LBXMOutdoorVController","LBXMPetVController","LBXMXinXiuVController","LBXMMusicVController","LBXMYouVController"]
+        let lbxmVCs = ["LBXMXinXiuVController","LBXMOutdoorVController","LBXMMusicVController","LBXMPetVController","LBXMYouVController"]
         
         for (index,vcString) in lbxmVCs.enumerated() {
             print("index:\(index),vc:\(vcString)")

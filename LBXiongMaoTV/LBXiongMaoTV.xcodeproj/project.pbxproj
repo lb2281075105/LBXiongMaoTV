@@ -86,6 +86,8 @@
 		F887E36D1EA4A70E006399F7 /* LBXMMusicVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F887E36C1EA4A70E006399F7 /* LBXMMusicVController.swift */; };
 		F887E36F1EA4A726006399F7 /* LBXMYouVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F887E36E1EA4A726006399F7 /* LBXMYouVController.swift */; };
 		F887E3741EA4B2CF006399F7 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F887E3731EA4B2CF006399F7 /* Bundle+Extensions.swift */; };
+		F88E26EE1EA5AFE600B6BA9D /* LBXMYuLeBaseVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E26ED1EA5AFE600B6BA9D /* LBXMYuLeBaseVController.swift */; };
+		F88E26F11EA5B01400B6BA9D /* LBXMYuLeBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E26F01EA5B01400B6BA9D /* LBXMYuLeBaseCell.swift */; };
 		F8E1F6691E9E1B8F0068F099 /* LBXMNavVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E1F6671E9E1B8F0068F099 /* LBXMNavVController.swift */; };
 		F8E1F66A1E9E1B8F0068F099 /* LBXMTabBarVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E1F6681E9E1B8F0068F099 /* LBXMTabBarVController.swift */; };
 /* End PBXBuildFile section */
@@ -193,6 +195,8 @@
 		F887E36C1EA4A70E006399F7 /* LBXMMusicVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMMusicVController.swift; sourceTree = "<group>"; };
 		F887E36E1EA4A726006399F7 /* LBXMYouVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMYouVController.swift; sourceTree = "<group>"; };
 		F887E3731EA4B2CF006399F7 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		F88E26ED1EA5AFE600B6BA9D /* LBXMYuLeBaseVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMYuLeBaseVController.swift; sourceTree = "<group>"; };
+		F88E26F01EA5B01400B6BA9D /* LBXMYuLeBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMYuLeBaseCell.swift; sourceTree = "<group>"; };
 		F8E1F6671E9E1B8F0068F099 /* LBXMNavVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMNavVController.swift; sourceTree = "<group>"; };
 		F8E1F6681E9E1B8F0068F099 /* LBXMTabBarVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXMTabBarVController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -406,6 +410,7 @@
 			isa = PBXGroup;
 			children = (
 				F84A45491E9DDD6C004C26B8 /* LBXMYuLeVController.swift */,
+				F88E26EC1EA5AFE600B6BA9D /* BaseVC */,
 				F887E3521EA4A0FE006399F7 /* 户外直播 */,
 				F887E3531EA4A0FE006399F7 /* 萌宠乐园 */,
 				F887E3541EA4A0FE006399F7 /* 熊猫新秀 */,
@@ -625,6 +630,23 @@
 			path = "Bundle+Extensions";
 			sourceTree = "<group>";
 		};
+		F88E26EC1EA5AFE600B6BA9D /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				F88E26ED1EA5AFE600B6BA9D /* LBXMYuLeBaseVController.swift */,
+				F88E26EF1EA5AFF900B6BA9D /* LBXMYuLeBaseCell */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		F88E26EF1EA5AFF900B6BA9D /* LBXMYuLeBaseCell */ = {
+			isa = PBXGroup;
+			children = (
+				F88E26F01EA5B01400B6BA9D /* LBXMYuLeBaseCell.swift */,
+			);
+			path = LBXMYuLeBaseCell;
+			sourceTree = "<group>";
+		};
 		F8E1F6661E9E1B8F0068F099 /* main */ = {
 			isa = PBXGroup;
 			children = (
@@ -784,6 +806,7 @@
 				F8E1F6691E9E1B8F0068F099 /* LBXMNavVController.swift in Sources */,
 				F80113901EA0AAD100C6CC8E /* LBXMMineItemSwitch.swift in Sources */,
 				F82FC7B51E9CD48A00B1BE30 /* NSArray+Log.m in Sources */,
+				F88E26EE1EA5AFE600B6BA9D /* LBXMYuLeBaseVController.swift in Sources */,
 				F8589A171E9F5E2200AAE36B /* ConstraintMakerPriortizable.swift in Sources */,
 				F8589A241E9F5E2200AAE36B /* UILayoutSupport+Extensions.swift in Sources */,
 				F82FC7BE1E9CD48A00B1BE30 /* UIScreen+CZAddition.m in Sources */,
@@ -803,6 +826,7 @@
 				F887E3691EA4A6F4006399F7 /* LBXMPetVController.swift in Sources */,
 				F86FC5621EA066FA00BE416C /* LBXMMineItemArrow.swift in Sources */,
 				F84A45541E9E0CB3004C26B8 /* LBXMSearchVController.swift in Sources */,
+				F88E26F11EA5B01400B6BA9D /* LBXMYuLeBaseCell.swift in Sources */,
 				F8589A061E9F5E2200AAE36B /* Constraint.swift in Sources */,
 				F86FC5601EA0663A00BE416C /* LBXMMineItem.swift in Sources */,
 				F8589A161E9F5E2200AAE36B /* ConstraintMakerFinalizable.swift in Sources */,

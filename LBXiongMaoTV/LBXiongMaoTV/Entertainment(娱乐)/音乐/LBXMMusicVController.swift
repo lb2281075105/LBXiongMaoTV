@@ -8,16 +8,22 @@
 
 import UIKit
 
-class LBXMMusicVController: UIViewController {
+class LBXMMusicVController: LBXMYuLeBaseVController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = UIColor.yellow
-        let label = UILabel.init(frame: CGRect.init(x: 0, y: 100, width: 200, height: 20))
-        label.text = "第四页"
-        view.addSubview(label)
+        ///加载数据
+        addData()
     }
+}
 
-
+extension LBXMMusicVController{
+    ///加载数据
+    func addData(){
+        lbxmYuleViewModel.musicRequest(isLiveData: true) { (resultArray) in
+            self.baseModelArray = resultArray
+            self.baseCollectionView.reloadData()
+        }
+    }
 }

@@ -9,9 +9,9 @@
 import UIKit
 import Alamofire
 ///间隔
-let itemMargin:CGFloat = 4
-let itemWidth = (UIScreen.cz_screenWidth() - itemMargin * 3)/2
-let itemHeight = itemWidth / 2
+private let itemMargin:CGFloat = 4
+private let itemWidth = (UIScreen.cz_screenWidth() - itemMargin * 3)/2
+private let itemHeight = itemWidth / 2
 
 class LBXMGameItemVController: UIViewController {
     ///集合视图
