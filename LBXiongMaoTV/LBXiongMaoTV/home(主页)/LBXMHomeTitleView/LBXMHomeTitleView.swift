@@ -51,7 +51,7 @@ class LBXMHomeTitleView: UIView {
     }
     ///按钮点击事件
     func titleBtnClick(sender:UIButton){
- 
+        translationToCenter(sender: sender)
         for btn in titleButtonArray {
             //btn.isSelected = false
             //btn.isUserInteractionEnabled = true
@@ -64,6 +64,29 @@ class LBXMHomeTitleView: UIView {
         UIView.animate(withDuration: 0.25) {
           self.indicatorV.centerX = self.titleButtonArray[sender.tag].centerX
         }
+    }
+    ///让标题按钮自动居中（如果按钮的中心点 > 屏幕的中心点则将按钮中心点偏移）
+    func translationToCenter(sender:UIButton){
+        var offsetX = sender.centerX - UIScreen.cz_screenWidth() / 2.0
+        let maxOffsetX = titleScrollView.contentSize.width - UIScreen.cz_screenWidth()
+        print("按钮中心点：%f,\n偏移量：%f,\n最大偏移量：%f\n",sender.centerX,offsetX,maxOffsetX)
+        if offsetX < 0 {
+            offsetX = 0
+        }
+        if offsetX > maxOffsetX{
+            ///当处于最后一个标题按钮并且maxOffsetX > 0 的时候，为防止被最右边添加按钮挡住，需要增加一个偏移
+            if sender.tag == (self.titleButtonArray.count) {
+                if maxOffsetX > 0 {
+                    offsetX = maxOffsetX + 40
+                }
+            }else{
+                if sender.tag != 0 {
+                    offsetX = maxOffsetX
+                }
+            }
+        }
+        
+        titleScrollView.setContentOffset(CGPoint.init(x: offsetX, y: 0), animated: true)
     }
  
 }
