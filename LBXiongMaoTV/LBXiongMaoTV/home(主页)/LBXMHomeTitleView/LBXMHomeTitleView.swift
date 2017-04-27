@@ -85,7 +85,7 @@ class LBXMHomeTitleView: UIView {
                 }
             }
         }
-        
+
         titleScrollView.setContentOffset(CGPoint.init(x: offsetX, y: 0), animated: true)
     }
  
